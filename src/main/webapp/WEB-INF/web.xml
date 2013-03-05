@@ -32,6 +32,10 @@
 		<servlet-class>net.sourceforge.stripes.controller.DispatcherServlet</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
+    <context-param>
+        <param-name>jQueryPresent</param-name>
+        <param-value>0</param-value>
+    </context-param>
 	
 	<servlet-mapping>
 		<servlet-name>StripesDispatcher</servlet-name>
